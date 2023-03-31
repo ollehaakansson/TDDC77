@@ -1,0 +1,24 @@
+cd = change directories,  lets you change directory
+pwd = print working directory, shows which directory you are in
+ls = lists contents of directory
+mv = move files, lets you move files
+mkdir = make directory, lets you make a new directory
+whoami = who am i? Shows what user you are logged in to.
+cat = shows the contents of a file
+echo = prints out arguments again.
+less = shows you a scroll-able document
+cp = makes copies of documents
+rm = remove. It can remove files
+rmdir = can remove directories
+wc = displays the word count of a file
+man = manual command, shows a instruction manual for other commands
+uniq = Lets you report or omit repeated lines of code.
+sort = lets you rearrange the order of files
+clear = clears the terminal of existing lines.
+
+
+
+
+
+
+

@@ -1,0 +1,207 @@
+ollha403@su03-108:~$ cd home
+bash: cd: home: No such file or directory
+ollha403@su03-108:~$ pwd
+/home/ollha403
+ollha403@su03-108:~$ mkdir "codebase"
+ollha403@su03-108:~$ ls
+codebase  Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+ollha403@su03-108:~$ cd codebase
+ollha403@su03-108:~/codebase$ ls
+ollha403@su03-108:~/codebase$ pwd
+/home/ollha403/codebase
+ollha403@su03-108:~/codebase$ ls date.txt
+ls: cannot access 'date.txt': No such file or directory
+ollha403@su03-108:~/codebase$ cat > date.txt
+ls
+^C
+ollha403@su03-108:~/codebase$ pwd
+/home/ollha403/codebase
+ollha403@su03-108:~/codebase$ ls
+date.txt
+ollha403@su03-108:~/codebase$ cat >date.txt
+Name: Olle
+Family Name: Haakansson
+Name: Lucas
+^C                                
+ollha403@su03-108:~/codebase$ cat > date.txt
+^C         
+ollha403@su03-108:~/codebase$ date > date.txt
+ollha403@su03-108:~/codebase$ ls
+date.txt
+ollha403@su03-108:~/codebase$ cat date.txt
+tor 25 aug 2022 11:10:37 CEST
+ollha403@su03-108:~/codebase$ $nano info.txt
+No binary named 'info.txt' found.
+
+Not all installed software is available by default. Try adding the
+software needed for your course by running the command
+    module add courses/YOUR_COURSE_CODE
+
+For example:
+    module add courses/TDDC88
+
+You can also use the command
+    module avail
+to query for installed software outside of your course. If the software you need shows up you can add it using the command
+    module add prog/[...]
+
+For example:
+    module add prog/kubectl
+
+More information is available at
+https://www.student.liu.se/studentstod/itsupport/allmant-linuxdatorsalar?l=sv
+
+If you believe this is an error, please send an e-mail to helpdesk@liu.se.
+ollha403@su03-108:~/codebase$ cat info.txt
+cat: info.txt: No such file or directory
+ollha403@su03-108:~/codebase$ ls info.txt
+ls: cannot access 'info.txt': No such file or directory
+ollha403@su03-108:~/codebase$ ls
+date.txt
+ollha403@su03-108:~/codebase$ $nano new_filename
+No binary named 'new_filename' found.
+
+Not all installed software is available by default. Try adding the
+software needed for your course by running the command
+    module add courses/YOUR_COURSE_CODE
+
+For example:
+    module add courses/TDDC88
+
+You can also use the command
+    module avail
+to query for installed software outside of your course. If the software you need shows up you can add it using the command
+    module add prog/[...]
+
+For example:
+    module add prog/kubectl
+
+More information is available at
+https://www.student.liu.se/studentstod/itsupport/allmant-linuxdatorsalar?l=sv
+
+If you believe this is an error, please send an e-mail to helpdesk@liu.se.
+ollha403@su03-108:~/codebase$ pwd
+/home/ollha403/codebase
+ollha403@su03-108:~/codebase$ ls
+date.txt
+ollha403@su03-108:~/codebase$ mk info.txt
+No binary named 'mk' found.
+
+Not all installed software is available by default. Try adding the
+software needed for your course by running the command
+    module add courses/YOUR_COURSE_CODE
+
+For example:
+    module add courses/TDDC88
+
+You can also use the command
+    module avail
+to query for installed software outside of your course. If the software you need shows up you can add it using the command
+    module add prog/[...]
+
+For example:
+    module add prog/kubectl
+
+More information is available at
+https://www.student.liu.se/studentstod/itsupport/allmant-linuxdatorsalar?l=sv
+
+If you believe this is an error, please send an e-mail to helpdesk@liu.se.
+ollha403@su03-108:~/codebase$ pwd
+/home/ollha403/codebase
+ollha403@su03-108:~/codebase$ ls
+date.txt
+ollha403@su03-108:~/codebase$ nano info.txt
+ollha403@su03-108:~/codebase$ ls
+date.txt  info.txt
+ollha403@su03-108:~/codebase$ cat info.txt
+Name: Olle
+Family Name: Håkansson
+Name2: Lucas
+Family Name2: Spåls
+
+ollha403@su03-108:~/codebase$ cd hoe
+bash: cd: hoe: No such file or directory
+ollha403@su03-108:~/codebase$ cd home
+bash: cd: home: No such file or directory
+ollha403@su03-108:~/codebase$ cd ..
+ollha403@su03-108:~$ pwd
+/home/ollha403
+ollha403@su03-108:~$ ls
+codebase  Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+ollha403@su03-108:~$ mkdir codebase_v2
+ollha403@su03-108:~$ ls
+codebase  codebase_v2  Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+ollha403@su03-108:~$ cp codebase >> codebase_v2
+bash: codebase_v2: Is a directory
+ollha403@su03-108:~$ cd codebase_v2
+ollha403@su03-108:~/codebase_v2$ ls
+ollha403@su03-108:~/codebase_v2$ cd ..
+ollha403@su03-108:~$ ls
+codebase  codebase_v2  Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+ollha403@su03-108:~$ cd codebase
+ollha403@su03-108:~/codebase$ ls
+date.txt  info.txt
+ollha403@su03-108:~/codebase$ cd ..
+ollha403@su03-108:~$ ls
+codebase  codebase_v2  Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+ollha403@su03-108:~$ cp codebase/codebase_v2
+cp: missing destination file operand after 'codebase/codebase_v2'
+Try 'cp --help' for more information.
+ollha403@su03-108:~$ cd codebase
+ollha403@su03-108:~/codebase$ ls
+date.txt  info.txt
+ollha403@su03-108:~/codebase$ cp date.txt
+cp: missing destination file operand after 'date.txt'
+Try 'cp --help' for more information.
+ollha403@su03-108:~/codebase$ cp date.txt date_v2.txt
+ollha403@su03-108:~/codebase$ ls
+date.txt  date_v2.txt  info.txt
+ollha403@su03-108:~/codebase$ cp info.txt info_v2.txt
+ollha403@su03-108:~/codebase$ ls
+date.txt  date_v2.txt  info.txt  info_v2.txt
+ollha403@su03-108:~/codebase$ mv date_v2.txt codebase_v2
+ollha403@su03-108:~/codebase$ ls
+codebase_v2  date.txt  info.txt  info_v2.txt
+ollha403@su03-108:~/codebase$ mv codebase_v2 date_v2.txt
+ollha403@su03-108:~/codebase$ ls
+date.txt  date_v2.txt  info.txt  info_v2.txt
+ollha403@su03-108:~/codebase$ mv date_v2.txt /codebase_v2
+mv: cannot create regular file '/codebase_v2': Permission denied
+ollha403@su03-108:~/codebase$ cd ..
+ollha403@su03-108:~$ ls
+codebase  codebase_v2  Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+ollha403@su03-108:~$ mv date_v2.txt ../codebase_v2
+mv: cannot stat 'date_v2.txt': No such file or directory
+ollha403@su03-108:~$ cd codebase
+ollha403@su03-108:~/codebase$ mv date_v2.txt ../codebase_v2
+ollha403@su03-108:~/codebase$ ls
+date.txt  info.txt  info_v2.txt
+ollha403@su03-108:~/codebase$ mv info_v2.txt ../codebase_v2
+ollha403@su03-108:~/codebase$ ls
+date.txt  info.txt
+ollha403@su03-108:~/codebase$ cd ..
+ollha403@su03-108:~$ ls
+codebase  codebase_v2  Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+ollha403@su03-108:~$ cd codebase_v2
+ollha403@su03-108:~/codebase_v2$ ls
+date_v2.txt  info_v2.txt
+ollha403@su03-108:~/codebase_v2$ rm codebase
+rm: cannot remove 'codebase': No such file or directory
+ollha403@su03-108:~/codebase_v2$ cd ..
+ollha403@su03-108:~$ ls
+codebase  codebase_v2  Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+ollha403@su03-108:~$ rm codebase
+rm: cannot remove 'codebase': Is a directory
+ollha403@su03-108:~$ rmdir codebase
+rmdir: failed to remove 'codebase': Directory not empty
+ollha403@su03-108:~$ cd codebase
+ollha403@su03-108:~/codebase$ ls
+date.txt  info.txt
+ollha403@su03-108:~/codebase$ rm date.txt 
+ollha403@su03-108:~/codebase$ rm info.txt 
+ollha403@su03-108:~/codebase$ ls
+ollha403@su03-108:~/codebase$ cd ..
+ollha403@su03-108:~$ rmdir codebase
+ollha403@su03-108:~$ ls
+codebase_v2  Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+ollha403@su03-108:~$ 

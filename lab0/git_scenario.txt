@@ -1,0 +1,9 @@
+För steg 1: vi använde commandot git clone för att clonea alla filer från git-repot.  Sen användee vi ls för att dubbelkolla att mappen skapats
+
+För steg 2: Vi ändrade filen genom att öppna den i ATOM
+
+För steg 3: Vi följde instruktionerna på gitlab för att pusah upp den. Alltså använde vi cd för att komma till rätt folder, därefter så använde vi git remote add origin därefter använde vi git add,  sen så använde vi git coomit för att lokalt spara filen innan vi skickade vidare den med git push
+
+För steg 4. Student två använde samma commandon som i steg 1
+
+för steg 5. Student två använde samma steg som i steg tre
